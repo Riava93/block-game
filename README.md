@@ -6,6 +6,7 @@ Just a simple block matching game that I built with **ReactJS** and **ES2015**.
 
 - ```npm install```
 - ```npm start```
+- Visit ```http://localhost:8080``` to see app.
 
 ## TODO
 
