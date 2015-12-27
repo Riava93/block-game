@@ -1,0 +1,45 @@
+$blue: hsl(209, 100%, 60%);
+$red: hsl(1, 100%, 60%);
+$orange: hsl(48, 100%, 60%);
+$green: hsl(105, 100%, 60%);
+$hover: #393939;
+
+div.block {
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+	transition: border-color .1s ease;
+
+
+	&.red {
+		background: $red;
+		border-color: darken($red, 20%);
+		&:hover {
+			border-color: darken($red, 40%);
+		}
+	}
+
+	&.blue {
+		background: $blue;
+		border-color: darken($blue, 20%);
+		&:hover {
+			border-color: darken($blue, 40%);
+		}
+	}
+
+	&.orange {
+		background: $orange;
+		border-color: darken($orange, 20%);
+		&:hover {
+			border-color: darken($orange, 40%);
+		}
+	}
+
+	&.green {
+		background: $green;
+		border-color: darken($green, 20%);
+		&:hover {
+			border-color: darken($green, 40%);
+		}
+	}
+}

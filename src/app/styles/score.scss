@@ -1,0 +1,25 @@
+#game-score {
+	position: absolute;
+	top: 38px; left: 90px;
+	width: 250px;
+	border: 1px solid black;
+	padding: 25px 50px;
+	text-align: center;
+
+	.score-card-header {
+		font: {
+			weight: bold;
+			size: 20px;
+			family: 'Open Sans', 'Helvetica', sans-serif;
+		}
+		margin-bottom: 25px;
+	}
+
+	.score-card-body {
+		font: {
+			weight: bolder;
+			size: 50px;
+			family: 'Open Sans', 'Helvetica', sans-serif;
+		}
+	}
+}
