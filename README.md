@@ -1,6 +1,6 @@
 # Simple Block Game
 
-Just a simple block matching game that I build with **ReactJS** and **ES2015**.
+Just a simple block matching game that I built with **ReactJS** and **ES2015**.
 
 ## Try it out
 
